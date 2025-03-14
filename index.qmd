@@ -1,11 +1,59 @@
 ---
-title: "Personal Website"
+title: "JUSTIN NOCHE"
+about:
+  template: trestles
+  image: profile.jpeg
+  links:
+    - icon: file-pdf
+      text: Resume
+      href: https://drive.google.com/file/d/1B-ZQZpeei9voy5Ougc-HDi0r0uIS9D9r/view?usp=sharing  
+    - icon: linkedin
+      text: linkedin
+      href: https://www.linkedin.com/in/justin-noche-a9bbb826b/
+    - icon: github
+      text: Github
+      href: https://github.com/justinnoch
 ---
 
-This is a Quarto website.
+# About Me
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Justin is a fourth-year Statistics and Data Science student at UCLA and a part-time coffee professional specializing in roasting and barista work. After graduation, he plans to become the Head Roaster at Be Bright Coffee while also pursuing independent coffee research.
 
-```{r}
-1 + 1
-```
+# Education
+
+##### University of California, Los Angeles
+
+*Sept 2021 - June 2025*\
+Statistics and Data Science B.S.
+
+#### Riverside Community College
+
+*July 2022 - Aug 2022*
+
+# [Projects](projects.qmd )
+
+##### [Analyzing Relationships with Roasted Coffee Weight Loss](weightloss.qmd)
+
+##### [A Study on Attention Span: Testing the Effects of Caffeine and Naps](caffeine%20naps.qmd)
+
+# Experience
+
+##### Be Bright Coffee
+
+*Production Roaster*
+
+Every week, I roast over 1400 pounds of coffee to fulfill the orders of wholesale clients and subscribers across the US. I also engage in weekly quality control, ensuring our customers receive the high quality product. 
+
+##### 757 Coffee and Matcha
+
+*Founder*
+
+I started 757 as a side business, creating and selling specialty drinks at my very own pop-ups.
+
+##### Upside Down
+
+*Barista*
+
+I aim to serve customers with the highest level of hospitality, all while refining my skill for the craft.
+
+

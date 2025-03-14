@@ -1,0 +1,78 @@
+---
+title: "Analyzing Relationships with Roasted Coffee Weight Loss"
+author: "Justin Noche"
+date: "24 March 2023"
+format: html
+---
+
+# Introduction
+## Question of Interest
+As a barista and coffee enthusiast, I explored the impact of roasting variables on coffee weight loss. Green coffee contains **10-12% moisture**, which is lost during roasting. This study aims to determine:
+
+- **Which roasting variables have the strongest correlation with weight loss?**
+- **Which model best describes this relationship?**
+
+## Data Collection
+- **Source:** Esh Coffee, a small microroaster in Los Angeles.
+- **Roaster Used:** Aillio Bullet R1 V2.
+- **Sample Size:** 100 roast profiles extracted from **Roast World**.
+
+# Methodology
+## Variables
+- **Response Variable:** Weight Loss % = (1 - Roasted Weight / Green Weight)
+- **Explanatory Variables:**
+  - **End Time** (Total Roast Time in minutes)
+  - **End IBTS** (End Infrared Bean Temperature Sensor, °C)
+  - **MASL** (Meters Above Sea Level where coffee was grown)
+  - **Development %** (Time after first crack / total roast time)
+
+# Data Analysis
+
+## Descriptive Statistics
+
+| Variable        | Mean   | Std Dev | Correlation With Weight Loss |
+|---------------|--------|---------|-------------------------------|
+| End Time      | 11.82  | 1.45    | 0.19                          |
+| End IBTS      | 201.84 | 4.83    | 0.75                          |
+| MASL          | 1832   | 184.06  | -0.44                         |
+| Development % | 16.99  | 2.96    | 0.15                          |
+
+- **End IBTS (r = 0.75)** shows the strongest correlation with weight loss.
+- **MASL (r = -0.44)** indicates a weak **negative** correlation.
+- **End Time & Development %** show weak relationships.
+
+## Linear Regression Model
+
+| Predictor  | Estimate  | Std. Error | t Value | p-Value   |
+|------------|-----------|------------|---------|-----------|
+| Intercept  | -12.36    | 3.05        | -6.28   | 9.72e-09  |
+| End Time   | 0.015     | 0.046       | 4.07    | 9.71e-05  |
+| End IBTS   | 0.143     | 0.014       | 12.13   | <2e-16    |
+| MASL       | -0.0028   | 0.0004      | -6.03   | 3.00e-08  |
+
+- **End IBTS (p < 2e-16) and MASL (p = 3.00e-08) are significant predictors.**
+- **Development % is not significant (p = 0.548) and was removed from the model.**
+
+### Final Regression Equation:
+$$\text{Predicted Loss} = -12.36 + 0.015(\text{End Time}) + 0.143(\text{End IBTS}) - 0.0028(\text{MASL})$$
+
+## Model Comparison
+We compared different models, including **No-Outlier and Log-Transformed Models**.
+
+| Model             | Adjusted R² | VIF < 5? |
+|------------------|-------------|----------|
+| Full Model       | 0.6976      | Yes      |
+| Reduced Model    | 0.6996      | Yes      |
+| No-Outlier Model | **0.7203**  | Yes      |
+| Log Model        | 0.6802      | Yes      |
+
+- **No-Outlier Model performed best (Adjusted R² = 0.7203).**
+
+# Conclusion
+- **End IBTS and MASL are strong predictors of weight loss.**
+- **The No-Outlier Model provided the best fit.**
+- **Future studies** could analyze moisture levels, processing methods, and drum capacity for deeper insights.
+
+# References
+- [Perfect Daily Grind: Coffee Bean Weight Loss](https://perfectdailygrind.com/2020/05/responding-to-coffee-bean-weight-loss-in-roasting/)
+- [Hoos Coffee: Roast Classification](https://hoos.coffee/blog/why-take-weight-loss-percentage)

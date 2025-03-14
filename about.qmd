@@ -1,9 +1,12 @@
 ---
 title: "About"
+about:
+  template: trestles
+  image: about.png
 ---
 
-About this site
+Hello! I'm Justin Noche, a fourth-year Stats and Data Science student at the University of California Los Angeles. I also work part-time as a coffee professional, specializing in coffee roasting, quality control, pop-ups, and barista work at various companies. I aim to combine my two passions for data and coffee in order to make informed decisions to further the industry.
 
-```{r}
-1 + 1
-```
+The summer after my freshman year in college, I began to work a part-time barista job at Upside Down in Westwood. What I thought to be a side hobby quickly turned into a rabbit hole - with me beginning to watch videos in order to further my skills, starting my own coffee brand, and learning how to roast. My interest for dataanalysis also led me to read numerous scientific articles that incorporated statistical methods and coffee research, and inspired me to do so as well.
+
+Beyond academics and coffee, I take pleasure mountain biking, going to the beach, and camping as a way to escape the business of the city. On the side, I enjoy learning the Japanese language through courses at UCLA as well. Currently, I am a member of Immanuel Bible Church, and aim to serve the Lord faithfully in every aspect of my life.

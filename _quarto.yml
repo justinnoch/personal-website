@@ -2,18 +2,25 @@ project:
   type: website
 
 website:
-  title: "Personal Website"
+  title: "Justin Noche"
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
+      - href: projects.qmd
+        text: Projects
+      - href: coffee.qmd
+        text: Coffee
 
 format:
   html:
-    theme: cosmo
+    theme: lux
     css: styles.css
     toc: true
 
 editor: visual
 
+execute: 
+  freeze: auto

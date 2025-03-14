@@ -1,0 +1,34 @@
+# Projects
+
+##### [Analyzing Relationships with Roasted Coffee Weight Loss](weightloss.qmd)
+
+By gathering 100 roasts from an Aillio Bullet Coffee roaster, this project explores the relationship between coffee roasting variables and weight loss percentage, using linear regression and model diagnostics. Findings indicate that end bean temperature and altitude (MASL) are the strongest predictors of weight loss in roasted coffee.
+
+##### [A Study on Attention Span: Testing the Effects of Caffeine and Naps](caffeine%20naps.qmd)
+
+This study examines the effects of caffeine and naps on attention span using a Two-Way Randomized Block Design and ANOVA analysis. Results show that napping significantly improves attention, while caffeine alone has no measurable impact.
+
+# Relevant Coursework
+
+##### Datacamp
+
+SQL Fundamentals Skills Track
+
+#### Riverside Community College
+
+Introduction to Python Programming 1
+
+##### UCLA
+
+MATH 170E – Introduction to Probability\
+STATS 101A – Introduction to Data Analysis & Regression\
+STATS 100B – Introduction to Mathematical Statistics\
+STATS 101B – Design & Analysis of Experiments\
+STATS 100C – Linear Models\
+STATS 101C – Introduction to Regression & Data Mining\
+STATS 102A – Introduction to Computational Statistics with R\
+STATS 102B – Introduction to Computation & Optimization\
+STATS 102C – Monte Carlo Methods\
+STATS M169 – Causality\
+STATS 140XP – Statistics Consulting (In Progress)\
+STATS 141XP – Statistics Consulting (In Progress)

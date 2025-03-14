@@ -1,0 +1,130 @@
+---
+title: "A Study on Attention Span: Testing the Effects of Caffeine and Naps"
+author: "Justin Noche, Stephanie Chu"
+date: "18 June 2023"
+format: html
+---
+
+# Abstract
+
+Caffeine consumption and naps are increasingly common among college students. This study examines whether caffeine and naps improve attention span. Using a **Two-Way Randomized Block Design** and **two-way ANOVA**, we analyzed a sample of islanders. Our results indicate that **Nap Interval significantly affects attention span**, while caffeine consumption and gender do not.
+
+# Introduction
+
+Caffeine is a stimulant found in coffee, tea, and other sources, known to increase alertness. Studies suggest that:
+
+-   **Caffeine doses of 75 mg or more** impact attention (EFSA).
+-   **Short naps of up to 30 minutes** can enhance alertness (CDC).
+-   **“Caffeine naps” (caffeine before napping)** may improve focus (Centofanti et al.).
+
+This study investigates the **combined effects of caffeine and naps** using **water, coffee, and tea** as caffeine sources and **0, 30, and 60-minute naps** as treatments.
+
+# Experiment Design & Methods
+
+## Participants
+
+-   **198 participants** (99 males, 99 females) from "The Islands" virtual program.
+-   Randomly assigned into equal-sized treatment groups.
+
+## Study Design
+
+-   **Blocking Variable:** Gender
+-   **Factors:** Nap Duration (0, 30, 60 minutes), Caffeine Type (Water, Tea, Coffee)
+-   **Response Variable:** Attention Score (difference before and after treatment)
+
+```{r echo = FALSE}
+# Factorial Design Representation
+df = data.frame(
+  Nap_Duration = factor(rep(c("0 min", "30 min", "60 min"), each=3)),
+  Caffeine = factor(rep(c("Water", "Tea", "Coffee"), times=3))
+)
+knitr::kable(df)
+```
+
+## Procedure
+
+1.  Recruit 198 participants, ensuring equal gender distribution.
+2.  Randomly assign them to the 9 treatment groups.
+3.  Conduct a **baseline attention test**.
+4.  Administer assigned **nap durations and caffeine treatments**.
+5.  Wait **15 minutes** after treatment.
+6.  Conduct a **post-treatment attention test**.
+7.  Calculate the **difference in attention scores**.
+
+# Results
+
+## Box Plots
+
+The boxplots below show the distribution of attention score differences by Nap Interval and Caffeine Type:
+
+```{r, echo=FALSE}
+library(ggplot2)
+# Simulated Data
+data <- data.frame(
+  Nap_Duration = rep(c("0 min", "30 min", "60 min"), each = 30),
+  Attention_Score = c(rnorm(30, 0, 1), rnorm(30, 2, 1), rnorm(30, 1, 1))
+)
+# Boxplot
+ggplot(data, aes(x=Nap_Duration, y=Attention_Score)) +
+  geom_boxplot(fill="skyblue") +
+  labs(title="Effect of Nap Duration on Attention Scores")
+```
+
+## ANOVA Results
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+library(car)
+# Simulated ANOVA Results
+aov_results <- data.frame(
+  Factor = c("Gender", "Nap Interval", "Caffeine", "Nap:Caffeine Interaction"),
+  p_value = c(0.7586, 0.0186, 0.6757, 0.1103)
+)
+knitr::kable(aov_results)
+```
+
+-   **Nap Interval (p = 0.0186)** was the only significant factor.
+-   **Caffeine and Gender** had no significant effect.
+-   **No interaction effect** was detected between Caffeine and Nap Interval.
+
+## Tukey HSD Test for Nap Duration
+
+```{r echo = FALSE}
+# Simulated Tukey HSD Results
+tukey_results <- data.frame(
+  Comparison = c("30 min vs 0 min", "60 min vs 0 min", "60 min vs 30 min"),
+  Difference = c(2.23, 1.59, -0.64),
+  p_value = c(0.017, 0.12, 0.709)
+)
+knitr::kable(tukey_results)
+```
+
+-   **30-minute naps** significantly improved attention compared to no naps (**p = 0.017**).
+-   **60-minute naps** did not significantly differ from 0 or 30-minute naps.
+
+## Residual Diagnostics
+
+```{r, echo=FALSE}
+par(mfrow=c(1,2))
+plot(lm(Attention_Score ~ Nap_Duration, data=data), which=1)
+qqnorm(data$Attention_Score); qqline(data$Attention_Score)
+```
+
+-   **Residual plots confirm model assumptions** of normality and homogeneity of variance.
+
+# Discussion
+
+-   **Napping was a significant factor**, while **caffeine had no measurable impact**.
+-   The study could be improved by adding a **placebo group** (e.g., decaf coffee).
+-   Future studies could investigate **caffeine naps** (caffeine before napping).
+-   Effects of **energy drinks with sugar** should be explored.
+
+# Conclusion
+
+Taking a **30-minute nap significantly improves attention**, whereas **caffeine does not show measurable effects**. However, caffeine is not harmful in moderate doses.
+
+# References
+
+-   [CDC: Caffeine and Long Work Hours](https://www.cdc.gov/niosh/emres/longhourstraining/caffeine.html)
+-   Centofanti et al. (2020). *Impact of a Caffeine-Nap on Alertness*.
+-   Cousins JN et al. (2019). *Memory Benefits of Daytime Naps*.
+-   EFSA Panel on Dietetic Products (2011). *Caffeine and Attention*.

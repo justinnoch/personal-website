@@ -2,15 +2,197 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Personal Website",
+    "title": "JUSTIN NOCHE",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "About Me\nJustin is a fourth-year Statistics and Data Science student at UCLA and a part-time coffee professional specializing in roasting and barista work. After graduation, he plans to become the Head Roaster at Be Bright Coffee while also pursuing independent coffee research.\n\n\nEducation\n\nUniversity of California, Los Angeles\nSept 2021 - June 2025\nStatistics and Data Science B.S.\n\n\nRiverside Community College\nJuly 2022 - Aug 2022\n\n\n\nProjects\n\nAnalyzing Relationships with Roasted Coffee Weight Loss\n\n\nA Study on Attention Span: Testing the Effects of Caffeine and Naps\n\n\n\nExperience\n\nBe Bright Coffee\nProduction Roaster\nEvery week, I roast over 1400 pounds of coffee to fulfill the orders of wholesale clients and subscribers across the US. I also engage in weekly quality control, ensuring our customers receive the high quality product.\n\n\n757 Coffee and Matcha\nFounder\nI started 757 as a side business, creating and selling specialty drinks at my very own pop-ups.\n\n\nUpside Down\nBarista\nI aim to serve customers with the highest level of hospitality, all while refining my skill for the craft."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Hello! I’m Justin Noche, a fourth-year Stats and Data Science student at the University of California Los Angeles. I also work part-time as a coffee professional, specializing in coffee roasting, quality control, pop-ups, and barista work at various companies. I aim to combine my two passions for data and coffee in order to make informed decisions to further the industry.\nThe summer after my freshman year in college, I began to work a part-time barista job at Upside Down in Westwood. What I thought to be a side hobby quickly turned into a rabbit hole - with me beginning to watch videos in order to further my skills, starting my own coffee brand, and learning how to roast. My interest for dataanalysis also led me to read numerous scientific articles that incorporated statistical methods and coffee research, and inspired me to do so as well.\nBeyond academics and coffee, I take pleasure mountain biking, going to the beach, and camping as a way to escape the business of the city. On the side, I enjoy learning the Japanese language through courses at UCLA as well. Currently, I am a member of Immanuel Bible Church, and aim to serve the Lord faithfully in every aspect of my life."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "JUSTIN NOCHE",
+    "section": "Education",
+    "text": "Education\n\nUniversity of California Los Angeles\nSept 2021 - June 2025 Statistics and Data Science B.S.\n\n\nRiverside Community College\nJuly 2022 - Aug 2022"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "JUSTIN NOCHE",
+    "section": "Experience",
+    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018\ntest"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "JUSTIN NOCHE",
+    "section": "",
+    "text": "Justin is a fourth-year Statistics and Data Science student at UCLA and a part-time coffee professional specializing in roasting and barista work. After graduation, he plans to become the Head Roaster at Be Bright Coffee while also pursuing independent coffee research."
+  },
+  {
+    "objectID": "index.html#university-of-california-los-angeles",
+    "href": "index.html#university-of-california-los-angeles",
+    "title": "JUSTIN NOCHE",
+    "section": "University of California Los Angeles",
+    "text": "University of California Los Angeles\nSept 2021 - June 2025 Statistics and Data Science B.S."
+  },
+  {
+    "objectID": "index.html#riverside-community-college",
+    "href": "index.html#riverside-community-college",
+    "title": "JUSTIN NOCHE",
+    "section": "Riverside Community College",
+    "text": "Riverside Community College\nJuly 2022 - Aug 2022"
+  },
+  {
+    "objectID": "index.html#analyzing-relationships-with-roasted-coffee-weight-loss",
+    "href": "index.html#analyzing-relationships-with-roasted-coffee-weight-loss",
+    "title": "JUSTIN NOCHE",
+    "section": "Analyzing Relationships with Roasted Coffee Weight Loss",
+    "text": "Analyzing Relationships with Roasted Coffee Weight Loss"
+  },
+  {
+    "objectID": "caffeine naps.html",
+    "href": "caffeine naps.html",
+    "title": "A Study on Attention Span: Testing the Effects of Caffeine and Naps",
+    "section": "",
+    "text": "Caffeine consumption and naps are increasingly common among college students. This study examines whether caffeine and naps improve attention span. Using a Two-Way Randomized Block Design and two-way ANOVA, we analyzed a sample of islanders. Our results indicate that Nap Interval significantly affects attention span, while caffeine consumption and gender do not."
+  },
+  {
+    "objectID": "caffeine naps.html#participants",
+    "href": "caffeine naps.html#participants",
+    "title": "A Study on Attention Span: Testing the Effects of Caffeine and Naps",
+    "section": "Participants",
+    "text": "Participants\n\n198 participants (99 males, 99 females) from “The Islands” virtual program.\nRandomly assigned into equal-sized treatment groups."
+  },
+  {
+    "objectID": "caffeine naps.html#study-design",
+    "href": "caffeine naps.html#study-design",
+    "title": "A Study on Attention Span: Testing the Effects of Caffeine and Naps",
+    "section": "Study Design",
+    "text": "Study Design\n\nBlocking Variable: Gender\nFactors: Nap Duration (0, 30, 60 minutes), Caffeine Type (Water, Tea, Coffee)\nResponse Variable: Attention Score (difference before and after treatment)\n\n\n\n\n\n\nNap_Duration\nCaffeine\n\n\n\n\n0 min\nWater\n\n\n0 min\nTea\n\n\n0 min\nCoffee\n\n\n30 min\nWater\n\n\n30 min\nTea\n\n\n30 min\nCoffee\n\n\n60 min\nWater\n\n\n60 min\nTea\n\n\n60 min\nCoffee"
+  },
+  {
+    "objectID": "caffeine naps.html#procedure",
+    "href": "caffeine naps.html#procedure",
+    "title": "A Study on Attention Span: Testing the Effects of Caffeine and Naps",
+    "section": "Procedure",
+    "text": "Procedure\n\nRecruit 198 participants, ensuring equal gender distribution.\nRandomly assign them to the 9 treatment groups.\nConduct a baseline attention test.\nAdminister assigned nap durations and caffeine treatments.\nWait 15 minutes after treatment.\nConduct a post-treatment attention test.\nCalculate the difference in attention scores."
+  },
+  {
+    "objectID": "caffeine naps.html#box-plots",
+    "href": "caffeine naps.html#box-plots",
+    "title": "A Study on Attention Span: Testing the Effects of Caffeine and Naps",
+    "section": "Box Plots",
+    "text": "Box Plots\nThe boxplots below show the distribution of attention score differences by Nap Interval and Caffeine Type:"
+  },
+  {
+    "objectID": "caffeine naps.html#anova-results",
+    "href": "caffeine naps.html#anova-results",
+    "title": "A Study on Attention Span: Testing the Effects of Caffeine and Naps",
+    "section": "ANOVA Results",
+    "text": "ANOVA Results\n\n\n\n\n\nFactor\np_value\n\n\n\n\nGender\n0.7586\n\n\nNap Interval\n0.0186\n\n\nCaffeine\n0.6757\n\n\nNap:Caffeine Interaction\n0.1103\n\n\n\n\n\n\nNap Interval (p = 0.0186) was the only significant factor.\nCaffeine and Gender had no significant effect.\nNo interaction effect was detected between Caffeine and Nap Interval."
+  },
+  {
+    "objectID": "caffeine naps.html#tukey-hsd-test-for-nap-duration",
+    "href": "caffeine naps.html#tukey-hsd-test-for-nap-duration",
+    "title": "A Study on Attention Span: Testing the Effects of Caffeine and Naps",
+    "section": "Tukey HSD Test for Nap Duration",
+    "text": "Tukey HSD Test for Nap Duration\n\n\n\n\n\nComparison\nDifference\np_value\n\n\n\n\n30 min vs 0 min\n2.23\n0.017\n\n\n60 min vs 0 min\n1.59\n0.120\n\n\n60 min vs 30 min\n-0.64\n0.709\n\n\n\n\n\n\n30-minute naps significantly improved attention compared to no naps (p = 0.017).\n60-minute naps did not significantly differ from 0 or 30-minute naps."
+  },
+  {
+    "objectID": "caffeine naps.html#residual-diagnostics",
+    "href": "caffeine naps.html#residual-diagnostics",
+    "title": "A Study on Attention Span: Testing the Effects of Caffeine and Naps",
+    "section": "Residual Diagnostics",
+    "text": "Residual Diagnostics\n\n\n\n\n\n\nResidual plots confirm model assumptions of normality and homogeneity of variance."
+  },
+  {
+    "objectID": "weightloss.html",
+    "href": "weightloss.html",
+    "title": "Analyzing Relationships with Roasted Coffee Weight Loss",
+    "section": "",
+    "text": "As a barista and coffee enthusiast, I explored the impact of roasting variables on coffee weight loss. Green coffee contains 10-12% moisture, which is lost during roasting. This study aims to determine:\n\nWhich roasting variables have the strongest correlation with weight loss?\nWhich model best describes this relationship?\n\n\n\n\n\nSource: Esh Coffee, a small microroaster in Los Angeles.\nRoaster Used: Aillio Bullet R1 V2.\nSample Size: 100 roast profiles extracted from Roast World."
+  },
+  {
+    "objectID": "weightloss.html#question-of-interest",
+    "href": "weightloss.html#question-of-interest",
+    "title": "Analyzing Relationships with Roasted Coffee Weight Loss",
+    "section": "",
+    "text": "As a barista and coffee enthusiast, I explored the impact of roasting variables on coffee weight loss. Green coffee contains 10-12% moisture, which is lost during roasting. This study aims to determine:\n\nWhich roasting variables have the strongest correlation with weight loss?\nWhich model best describes this relationship?"
+  },
+  {
+    "objectID": "weightloss.html#data-collection",
+    "href": "weightloss.html#data-collection",
+    "title": "Analyzing Relationships with Roasted Coffee Weight Loss",
+    "section": "",
+    "text": "Source: Esh Coffee, a small microroaster in Los Angeles.\nRoaster Used: Aillio Bullet R1 V2.\nSample Size: 100 roast profiles extracted from Roast World."
+  },
+  {
+    "objectID": "weightloss.html#variables",
+    "href": "weightloss.html#variables",
+    "title": "Analyzing Relationships with Roasted Coffee Weight Loss",
+    "section": "Variables",
+    "text": "Variables\n\nResponse Variable: Weight Loss % = (1 - Roasted Weight / Green Weight)\nExplanatory Variables:\n\nEnd Time (Total Roast Time in minutes)\nEnd IBTS (End Infrared Bean Temperature Sensor, °C)\nMASL (Meters Above Sea Level where coffee was grown)\nDevelopment % (Time after first crack / total roast time)"
+  },
+  {
+    "objectID": "weightloss.html#descriptive-statistics",
+    "href": "weightloss.html#descriptive-statistics",
+    "title": "Analyzing Relationships with Roasted Coffee Weight Loss",
+    "section": "Descriptive Statistics",
+    "text": "Descriptive Statistics\n\n\n\nVariable\nMean\nStd Dev\nCorrelation With Weight Loss\n\n\n\n\nEnd Time\n11.82\n1.45\n0.19\n\n\nEnd IBTS\n201.84\n4.83\n0.75\n\n\nMASL\n1832\n184.06\n-0.44\n\n\nDevelopment %\n16.99\n2.96\n0.15\n\n\n\n\nEnd IBTS (r = 0.75) shows the strongest correlation with weight loss.\nMASL (r = -0.44) indicates a weak negative correlation.\nEnd Time & Development % show weak relationships."
+  },
+  {
+    "objectID": "weightloss.html#linear-regression-model",
+    "href": "weightloss.html#linear-regression-model",
+    "title": "Analyzing Relationships with Roasted Coffee Weight Loss",
+    "section": "Linear Regression Model",
+    "text": "Linear Regression Model\n\n\n\nPredictor\nEstimate\nStd. Error\nt Value\np-Value\n\n\n\n\nIntercept\n-12.36\n3.05\n-6.28\n9.72e-09\n\n\nEnd Time\n0.015\n0.046\n4.07\n9.71e-05\n\n\nEnd IBTS\n0.143\n0.014\n12.13\n&lt;2e-16\n\n\nMASL\n-0.0028\n0.0004\n-6.03\n3.00e-08\n\n\n\n\nEnd IBTS (p &lt; 2e-16) and MASL (p = 3.00e-08) are significant predictors.\nDevelopment % is not significant (p = 0.548) and was removed from the model.\n\n\nFinal Regression Equation:\n\\[\\text{Predicted Loss} = -12.36 + 0.015(\\text{End Time}) + 0.143(\\text{End IBTS}) - 0.0028(\\text{MASL})\\]"
+  },
+  {
+    "objectID": "weightloss.html#model-comparison",
+    "href": "weightloss.html#model-comparison",
+    "title": "Analyzing Relationships with Roasted Coffee Weight Loss",
+    "section": "Model Comparison",
+    "text": "Model Comparison\nWe compared different models, including No-Outlier and Log-Transformed Models.\n\n\n\nModel\nAdjusted R²\nVIF &lt; 5?\n\n\n\n\nFull Model\n0.6976\nYes\n\n\nReduced Model\n0.6996\nYes\n\n\nNo-Outlier Model\n0.7203\nYes\n\n\nLog Model\n0.6802\nYes\n\n\n\n\nNo-Outlier Model performed best (Adjusted R² = 0.7203)."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Projects\n\nAnalyzing Relationships with Roasted Coffee Weight Loss\nBy gathering 100 roasts from an Aillio Bullet Coffee roaster, this project explores the relationship between coffee roasting variables and weight loss percentage, using linear regression and model diagnostics. Findings indicate that end bean temperature and altitude (MASL) are the strongest predictors of weight loss in roasted coffee.\n\n\nA Study on Attention Span: Testing the Effects of Caffeine and Naps\nThis study examines the effects of caffeine and naps on attention span using a Two-Way Randomized Block Design and ANOVA analysis. Results show that napping significantly improves attention, while caffeine alone has no measurable impact.\n\n\n\nRelevant Coursework\n\nDatacamp\nSQL Fundamentals Skills Track\n\n\nRiverside Community College\nIntroduction to Python Programming 1\n\nUCLA\nMATH 170E – Introduction to Probability\nSTATS 101A – Introduction to Data Analysis & Regression\nSTATS 100B – Introduction to Mathematical Statistics\nSTATS 101B – Design & Analysis of Experiments\nSTATS 100C – Linear Models\nSTATS 101C – Introduction to Regression & Data Mining\nSTATS 102A – Introduction to Computational Statistics with R\nSTATS 102B – Introduction to Computation & Optimization\nSTATS 102C – Monte Carlo Methods\nSTATS M169 – Causality\nSTATS 140XP – Statistics Consulting (In Progress)\nSTATS 141XP – Statistics Consulting (In Progress)"
+  },
+  {
+    "objectID": "projects.html#datacamp",
+    "href": "projects.html#datacamp",
+    "title": "Projects",
+    "section": "Datacamp",
+    "text": "Datacamp\nSQL Fundamentals Skills Track"
+  },
+  {
+    "objectID": "projects.html#riverside-community-college",
+    "href": "projects.html#riverside-community-college",
+    "title": "Projects",
+    "section": "Riverside Community College",
+    "text": "Riverside Community College\nIntroduction to Python Programming 1"
+  },
+  {
+    "objectID": "projects.html#ucla",
+    "href": "projects.html#ucla",
+    "title": "Projects",
+    "section": "UCLA",
+    "text": "UCLA\nMATH 170E – Introduction to Probability\nSTATS 101A – Introduction to Data Analysis & Regression\nSTATS 100B – Introduction to Mathematical Statistics\nSTATS 101B – Design & Analysis of Experiments\nSTATS 100C – Linear Models\nSTATS 101C – Introduction to Regression & Data Mining\nSTATS 102A – Introduction to Computational Statistics with R\nSTATS 102B – Introduction to Computation & Optimization\nSTATS 102C – Monte Carlo Methods\nSTATS M169 – Causality\nSTATS 140XP – Statistics Consulting (In Progress)\nSTATS 141XP – Statistics Consulting (In Progress)"
+  },
+  {
+    "objectID": "coffee.html",
+    "href": "coffee.html",
+    "title": "Be Bright Coffee",
+    "section": "",
+    "text": "Under the apprenticeship of the 2024 United States Barista Champion - Frank La, I continue to develop my passion for coffee through roasting, pouring latte art, hosting my own popups, and documenting the Los Angeles cafe scene.\n\nBe Bright Coffee\nAfter asking for an apprenticeship in Summer 2023, I began to work at Be Bright as their production Roaster. I learned how to roast on a Loring Kestrel S35, and utilize Cropster Roasting Intelligence for quality control, monitoring roasts, and green coffee inventory. In addition, I navigate Roastertools for production order, and connecting to our wholesale portals.\n\n\n757 Coffee and Matcha\nWhat was first a small gathering of friends in Sproul Landing 757, quickly turned into regular popups. After moving into an apartment, 757 became a famous apartment popup for those in the UCLA community, boasting high quality specialty drinks and maxed out RSVP slots.\n\n\nUpside Down\nI would not be at this place in my coffee journey if it were not for Upside Down in Westwood. It was here I learned not only the basics of barista-ing, but also how to have exceptional hospitality and the importance of creating a space of gathering for a community.\n\n\nFreelance Barista Work\n757 and Gen | Summer popup | July 2024\nCup of Troy | USC Popup | October 2022\nBe Bright Coffee | Code Conference 2022 | Sept 2022"
   }
 ]
